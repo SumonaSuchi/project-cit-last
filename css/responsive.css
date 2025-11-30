@@ -1,0 +1,154 @@
+@media(min-width:1200px){
+
+}
+@media(min-width:992px) and (max-width:1199.98px){
+
+    .banner_items{
+        padding: 228px 50px;
+    }
+    .banner_items p{
+        padding-bottom: 40px;
+    }
+    .about_right{
+        max-width: 100%;
+    }
+
+}
+@media(min-width:768px) and (max-width:991.98px){
+    .header_left p{
+        font-size: 12px;
+    }
+    .welcome_part p{
+        font-size: 12px;
+    }
+    .header_right ul li a{
+        height: 22px;
+        width: 22px;
+    }
+    #menu ul li a{
+        font-size: 14px;
+        font-weight: 500;
+        padding: 0 15px;
+    }
+    #menu ul li{
+        margin: 15px 0;
+}
+.banner_items p{
+    padding-bottom: 30px;
+}
+.banner_items {
+    padding:200px 35px 0 35px;
+}
+.banner_image {
+    height: 600px;
+}
+.service_content p{
+    padding: 22px 15px;
+}
+.service_slide .col-md-6{
+    margin: 0 8px;
+}
+.about_left{
+    display: none;
+}
+
+}
+@media(min-width:576px) and (max-width:767.98px){
+    
+}
+@media(max-width:767.98px){
+    .header_left{
+        text-align: center;
+        padding: 10px 0;
+    }
+    .welcome_part{
+        clip-path: none;
+    }
+    .header_right ul{
+        float:none;
+        text-align: center;
+    }
+    .header_right ul li{
+      display: inline-block;
+      float: none;
+    }
+    .container, .container-sm {
+        max-width: none; 
+    }
+    .header_right{
+        padding: 10px 0;
+        text-align: center;
+    }
+    .banner_items p{
+        padding-bottom: 30px;
+    }
+    .banner_items {
+        padding:200px 35px 0 35px;
+    }
+    .banner_image {
+        height: 600px;
+    }
+    #menu{
+        z-index: -1;
+    }
+    #menu i{
+        color: var(--main_color);
+    }   
+
+    #services{
+        z-index: -1;
+    }
+    .service_content p{
+        line-height: 24px;
+        padding: 10px 10px;
+    }
+    .service_content h3{
+        padding-top: 10px;
+    }
+    .section_heading p{
+        padding: 0 20px;
+    }
+    #home_about h2{
+        font-size: 25px;
+    }
+    .about_left{
+        display: none;
+    }
+    #home_about{
+        z-index: -1;
+    }
+}
+
+@media(max-width:575.98px){
+    #services{
+        z-index: -1;
+    }
+    .banner_items {
+        padding:100px 35px 0 35px;
+    } 
+
+    .banner_image {
+        height: 400px;
+    }
+    .banner_items h1{
+        font-size: 23px;
+    }
+    .banner_items h1 span{
+        font-size: 23px;
+    }
+    .banner_items p{
+        font-size: 12px;
+        padding-bottom: 20px;
+    }
+    .banner_items a{
+        font-size: 13px;
+        padding: 5px 5px;
+        margin-right: 3px;
+    }
+    .about_right ul li button{
+        font-size: 15px;
+    }
+    .about_right{
+        max-width: 100%;
+    }
+}
